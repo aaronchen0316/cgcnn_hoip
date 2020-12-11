@@ -4,3 +4,5 @@ We have applied a crystal graph convolutional neural network to conduct a high-t
 - Train CGCNN model from scratch using only HOIP data
 - Apply transfer learning, using pre-trained model and HOIP data
 - Test the performance of a different loss function
+
+Please download and extract the tarball provided from the dataset source. Use the hoip_band_gap.csv(renamed to id_prop.csv) and atom_init.json file by moving it into the folder with all the cif files.
