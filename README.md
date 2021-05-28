@@ -5,4 +5,9 @@ We have applied a crystal graph convolutional neural network to conduct a high-t
 - Apply transfer learning, using pre-trained model and HOIP data
 - Test the performance of a different loss function
 
+Our results show:   
+Training from scratch brings better results, but overfits.    
+Training with Cross Entropy is unstable and accuracy is limited with the the number of bins the model is initialised with.   
+Transfer learning with discriminative learning and differential learning rates has the best performance with stable steps and no overfitting.   
+
 Please download and extract the tarball provided from the dataset source. Use the hoip_band_gap.csv(renamed to id_prop.csv) and atom_init.json file by moving it into the folder with all the cif files.
